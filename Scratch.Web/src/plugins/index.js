@@ -1,0 +1,6 @@
+import '@/plugins/bootstrap-vue'
+import '@/plugins/portal-vue'
+import '@/plugins/vue-composition-api'
+import '@/plugins/vue-shortkey'
+import '@/plugins/vue-sidebar-menu'
+import '@/plugins/vuejs-smart-table'

@@ -1,9 +1,12 @@
 import _ from 'lodash';
 import printMe from './print.js';
-import './style.css';
-import Icon from './icon.svg';
-import Data from './data.xml';
-import Notes from './data.csv';
+
+import '../public/style.css';
+
+import Icon from '../public/icon.svg';
+import Data from '../public/data.xml';
+import Notes from '../public/data.csv';
+
 
 function component() {
   const element = document.createElement('div');
