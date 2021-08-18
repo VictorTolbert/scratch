@@ -28,7 +28,7 @@
 
             <main class="flex-1">
                 <section class="p-8">
-                    <span class="custom-class">Render Body</span>
+                    Render Body
                 </section>
             </main>
         </div>
@@ -90,15 +90,8 @@
 <script>
 import videojs from "video.js";
 import "video.js/dist/video-js.css";
-import BaseIconOutlined from './components/BaseIconOutlined.vue';
-import InlineSVG from '@/assets/svg/vue.svg?inline';
-import ExternalSVG from '@/assets/svg/webpack.svg';
 
 export default {
-    name: 'App',
-
-    components: { BaseIconOutlined, InlineSVG },
-
     data() {
         return {
             menu: [
