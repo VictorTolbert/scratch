@@ -33,7 +33,6 @@
                     <b-avatar icon="people-fill"></b-avatar>
                     <b-button variant="outline-primary">Button</b-button>
 
-                    <core-counter></core-counter>
 
                     <!-- <figure>
                       <InlineSVG />
@@ -77,10 +76,6 @@
                 </div>
             </div>
 
-            <template slot="footer">
-                Footer
-            </template>
-
             <span slot="toggle-icon" class="flex items-center px-2 space-x-2">
                 <span>
                     <base-icon-outlined
@@ -109,12 +104,11 @@ import "video.js/dist/video-js.css";
 import BaseIconOutlined from './components/BaseIconOutlined.vue';
 import InlineSVG from '@/assets/svg/vue.svg?inline';
 import ExternalSVG from '@/assets/svg/webpack.svg';
-import CoreCounter from '@/components/CoreCounter.ts';
 
 export default {
     name: 'App',
 
-    components: { BaseIconOutlined, InlineSVG, CoreCounter },
+    components: { BaseIconOutlined, InlineSVG },
 
     data() {
         return {
