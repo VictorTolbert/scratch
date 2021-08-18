@@ -29,17 +29,6 @@
             <main class="flex-1">
                 <section class="p-8">
                     <span class="custom-class">Render Body</span>
-                    <b-avatar></b-avatar>
-                    <b-avatar icon="people-fill"></b-avatar>
-                    <b-button variant="outline-primary">Button</b-button>
-
-
-                    <!-- <figure>
-                      <InlineSVG />
-                    </figure> -->
-
-                    <!-- <img :src="externalSVG" /> -->
-                    <!-- <div class="external-svg" /> -->
                 </section>
             </main>
         </div>
