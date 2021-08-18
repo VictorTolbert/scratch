@@ -14,9 +14,6 @@ module.exports = {
     another: './src/another-module.js',
   },
   devtool: 'inline-source-map',
-  devServer: {
-    contentBase: './dist',
-  },
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
